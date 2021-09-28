@@ -48,7 +48,7 @@ while close:
                 print('===========DFS==========')
                 BFS_algo, DFS_algo, UCS_algo = 0, 1, 0
         if event.type == pg.KEYUP:
-            if event.key == pg.K_LEFT or event.key == pg.K_RIGHT or event.key == pg.K_d or event.key == pg.K_a:
+            if event.key == pg.K_LEFT or event.key == pg.K_RIGHT:
                 ship.set_SpeedOfShip(0)
 
     ship.set_player_w(ship.get_SpeedOfShip())
